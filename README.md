@@ -2,19 +2,19 @@
 
 ## **Overview**
 
-This project demonstrates an **audio-based gesture recognition system** that detects **hand claps** using a USB camera’s built-in microphone and real-time audio processing. Built on **Raspberry Pi 4** and leveraging **Python signal processing libraries**, the system identifies claps by analyzing **RMS amplitude** in the time domain and validating the frequency characteristics through **Fast Fourier Transform (FFT)**.
+This project demonstrates an audio-based gesture recognition system that detects hand claps using a USB camera’s built-in microphone and real-time audio processing. Built on Raspberry Pi 4 and leveraging Python signal processing libraries, the system identifies claps by analyzing RMS amplitude in the time domain and validating the frequency characteristics through **Fast Fourier Transform (FFT).
 
-The system provides **real-time amplitude, RMS values, and frequency spectrum visualization** to confirm detection. While the project focuses on a simple **clap recognition mechanism**, it applies fundamental principles of **digital signal processing** for accurate sound event detection.
+The system provides real-time amplitude, RMS values, and frequency spectrum visualization to confirm detection. While the project focuses on a simple clap recognition mechanism, it applies fundamental principles of digital signal processing for accurate sound event detection.
 
 
 
 ## **Key Features**
 
-* Detects **single and double claps** for interaction
-* Uses **RMS amplitude spikes** for impulse detection
-* Applies **FFT analysis** to validate clap frequency band (2–5 kHz)
-* Provides **real-time amplitude and spectrum visualization**
-* Lightweight and runs entirely on **Raspberry Pi** with a USB mic
+* Detects single and double claps for interaction
+* Uses RMS amplitude spikes for impulse detection
+* Applies FFT analysis to validate clap frequency band (2–5 kHz)
+* Provides real-time amplitude and spectrum visualization
+* Lightweight and runs entirely on Raspberry Pi with a USB mic
 
 
 ## **Technical Specifications**
@@ -90,7 +90,7 @@ python clap_with_fourier.py
    * **Amplitude values**
    * **RMS detection**
    * **FFT spectrum visualization (optional)**
-5. Press **CTRL + C** to stop the program.
+5. Press CTRL + C to stop the program.
 
 
 ## **Demo Preview**
@@ -100,7 +100,7 @@ https://drive.google.com/drive/folders/1jObd6aPV2K2kEvmRso_nHomKD1oNXRAM?usp=sha
 
 ## **Signal Processing Insight (FFT)**
 
-The system applies **Fast Fourier Transform (FFT)** to verify the frequency content of the detected impulse. Claps typically produce energy concentrated in the **2–5 kHz range**, which helps distinguish them from other noises (Wróbel & Zieliński, 2021). This validation step reduces false positives in moderately noisy environments.
+The system applies Fast Fourier Transform (FFT) to verify the frequency content of the detected impulse. Claps typically produce energy concentrated in the 2–5 kHz range, which helps distinguish them from other noises (Wróbel & Zieliński, 2021). This validation step reduces false positives in moderately noisy environments.
 
 Future improvements could include:
 
