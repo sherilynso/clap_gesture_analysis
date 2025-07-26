@@ -1,0 +1,13 @@
+used for opening environment:
+source clap_env/bin/activate
+
+used for running:
+python clap_with_fourier.py
+
+used for editing script:
+nano clap_with_fourier.py
+
+Step by step guide:
+
+First, open the environment by putting this command "source clap_env/bin/activate" inside the terminal.
+Second, run this command "python clap_with_fourier.py" by putting it inside the terminal and environment.
