@@ -1,4 +1,4 @@
-# **Clap Detection System Using Real-Time Audio Signal Processing on Raspberry Pi**
+# **Implementation of Clap Gesture Recognition via Frequency and Amplitude Analysis**
 
 ## **Overview**
 
